@@ -1,0 +1,682 @@
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+}
+
+header, footer {
+  background-color: #F6F6F6;
+  background: url("http://100daysoffonts.com/images/natural-paper.png");
+}
+
+header h1, header a, footer h1, footer a {
+  font-family: "Quicksand";
+  color: #16B1A0;
+  text-align: center;
+  font-weight: 400;
+}
+
+header h2, header p, footer h2, footer p {
+  color: #FFCB00;
+  font-family: "Sacramento";
+  font-size: 2.8rem;
+  padding: 5rem 3rem 5rem;
+  margin: 0 auto;
+}
+
+header a, header p, footer a, footer p {
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+header a, footer a {
+  padding: 0;
+}
+
+header {
+  padding: 3.5rem 0;
+}
+
+header h1 {
+  letter-spacing: 0.3rem;
+  font-size: 15rem;
+  padding: 8rem 3rem 0rem;
+  margin: 0 auto;
+}
+
+header svg {
+  fill: #16B1A0;
+  padding-top: 2rem;
+  width: 8rem;
+  margin: 0 calc(50% - 4rem);
+}
+
+header .bird {
+  margin: 0 auto;
+}
+
+header .bird svg {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  header .wrapper h1 {
+    font-size: 11rem;
+  }
+}
+
+@media (max-width: 400px) {
+  header .wrapper h1 {
+    font-size: 8rem;
+  }
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 0 auto;
+  padding: 8% 5rem 12%;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 8% 3rem 12%;
+  }
+}
+
+p {
+  padding-bottom: 2rem;
+  color: #F6F6F6;
+  font-family: "Quicksand";
+  font-size: 4rem;
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+label {
+  width: 20%;
+  padding: 2rem;
+  color: #F6F6F6;
+  font-family: "Sacramento";
+  font-size: 4rem;
+}
+
+@media (max-width: 1000px) {
+  label {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  label {
+    font-size: 3rem;
+  }
+}
+
+.questionOne div, .questionTwo div, .questionThree div, .questionFour div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  .questionOne div, .questionTwo div, .questionThree div, .questionFour div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  .questionOne div, .questionTwo div, .questionThree div, .questionFour div {
+    flex-direction: column;
+  }
+}
+
+.questionThree div, .questionFour div {
+  width: 90%;
+}
+
+@media (max-width: 1100px) {
+  .questionThree div, .questionFour div {
+    width: 100%;
+  }
+}
+
+.questionOne span, .questionTwo span, .questionThree span, .questionFour span {
+  flex: 1 0 33.3%;
+  padding: 3rem 1rem;
+}
+
+@media (max-width: 800px) {
+  .questionOne span, .questionTwo span, .questionThree span, .questionFour span {
+    flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 580px) {
+  .questionOne span, .questionTwo span, .questionThree span, .questionFour span {
+    flex: 1 0 100%;
+  }
+}
+
+.questionOne {
+  background: #F73260;
+  background-image: url(../assets/arrowOne.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questionTwo {
+  background: #2EA2B4;
+  background-image: url(../assets/anchorOne.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questionThree {
+  background: #F63300;
+  background-image: url(../assets/roseOne.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questionFour {
+  background: #16B1A0;
+  background-image: url(../assets/doveOne.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questionFive {
+  background: #FD5D67;
+  background-image: url(../assets/envelopeOne.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 8% 5rem 6%;
+  margin: 0 auto;
+}
+
+.questionFive input {
+  background: rgba(247, 50, 62, 0.7);
+  display: block;
+  margin: 13rem auto 0;
+  padding: 2rem;
+  position: relative;
+  border: 2px solid transparent;
+  font-family: "Sacramento";
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.questionFive input[type=submit] {
+  margin: 3rem auto 0;
+}
+
+@media (max-width: 480px) {
+  .questionFive input[type=submit] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .questionFive input[type=text] {
+    width: 100%;
+    font-size: 3rem;
+  }
+}
+
+.questionFive input:focus, .questionFive input[type=submit]:focus, .questionFive input:placeholder-shown:focus {
+  border: 4px solid #fa8389;
+  outline: none;
+  background-color: rgba(247, 50, 62, 0.7);
+}
+
+.questionFive ::-webkit-input-placeholder {
+  color: #fff;
+  outline: none;
+}
+
+.questionFive input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #f7323e inset;
+}
+
+.questionFive input:active {
+  background-color: rgba(247, 50, 62, 0.7);
+}
+
+.postcard {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 8%;
+  right: 0;
+  bottom: 0;
+  border: 2px solid grey;
+}
+
+.postcard h3 {
+  margin: auto;
+}
+
+.answer {
+  display: none;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.answer input[type=reset] {
+  margin: 0;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0.2rem;
+  right: 10%;
+}
+
+@media (max-width: 1000px) {
+  .answer input[type=reset] {
+    right: 10.1%;
+  }
+}
+
+h3 {
+  margin: 0 auto;
+}
+
+.josefin {
+  font-family: "Josefin Sans";
+  font-size: 6rem;
+}
+
+.josefin span {
+  font-family: "League Script";
+}
+
+@media (max-width: 780px) {
+  .josefin {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .josefin {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .josefin {
+    font-size: 3.8rem;
+  }
+}
+
+.quicksand {
+  font-family: "Quicksand ";
+  font-size: 6rem;
+}
+
+.quicksand span {
+  font-family: "Sacramento";
+}
+
+@media (max-width: 780px) {
+  .quicksand {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .quicksand {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .quicksand {
+    font-size: 3.8rem;
+  }
+}
+
+.londrina {
+  font-family: "Londrina Outline";
+  font-size: 6rem;
+}
+
+.londrina span {
+  font-family: "Anonymous Pro";
+  font-size: 5rem;
+}
+
+@media (max-width: 780px) {
+  .londrina span {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .londrina span {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .londrina span {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .londrina {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .londrina {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .londrina {
+    font-size: 3.8rem;
+  }
+}
+
+.anonymous {
+  font-family: "Montserrat";
+  font-size: 5rem;
+}
+
+.anonymous span {
+  font-family: "Vast Shadow";
+}
+
+@media (max-width: 780px) {
+  .anonymous {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .anonymous {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .anonymous {
+    font-size: 3.8rem;
+  }
+}
+
+.cabin {
+  font-family: "Cabin";
+  font-size: 6rem;
+}
+
+.cabin span {
+  font-family: "Josefin Slab";
+}
+
+@media (max-width: 780px) {
+  .cabin {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cabin {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .cabin {
+    font-size: 3.8rem;
+  }
+}
+
+.yanone {
+  font-family: "Josefin Slab";
+  font-size: 6rem;
+}
+
+.yanone span {
+  font-family: "Montserrat";
+}
+
+@media (max-width: 780px) {
+  .yanone {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .yanone {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .yanone {
+    font-size: 3.8rem;
+  }
+}
+
+.backgroundOne {
+  background: url(../assets/backgroundOne.jpg);
+  background-size: cover;
+}
+
+.backgroundTwo {
+  background-image: url(../assets/backgroundTwo.jpg);
+  background-size: cover;
+}
+
+.backgrountThree {
+  background: url(../assets/backgroundThree.jpg);
+  background-size: cover;
+}
+
+.backgroundFour {
+  background: url(../assets/backgroundFour.jpg);
+  background-size: cover;
+}
+
+.backgroundFive {
+  background: url(../assets/backgroundFive.jpg);
+  background-size: cover;
+}

@@ -1,0 +1,140 @@
+h3 {
+	margin: 0 auto;
+}
+.josefin {
+	font-family: "Josefin Sans";
+	font-size: 6rem;
+	span {
+		font-family: "League Script";
+	}
+
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+	@media (max-width: 600px){
+		font-size: 4.2rem;
+	}
+	@media (max-width: 500px){
+		font-size: 3.8rem;
+	}
+}
+
+.quicksand {
+	font-family: "Quicksand ";
+	font-size: 6rem;
+	span {
+		font-family: "Sacramento";
+	}
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+	@media (max-width: 600px){
+		font-size: 4.2rem;
+	}
+	@media (max-width: 500px){
+		font-size: 3.8rem;
+	}
+}
+
+.londrina {
+	font-family: "Londrina Outline";
+	font-size: 6rem;
+	span {
+		font-family: "Anonymous Pro";
+		font-size: 5rem;
+		@media (max-width: 780px){
+		font-size: 4rem;
+		}
+		@media (max-width: 600px){
+		font-size: 3.2rem;
+		}
+		@media (max-width: 500px){
+		font-size: 2.7rem;
+		}
+	}
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+	@media (max-width: 600px){
+		font-size: 4.2rem;
+	}
+	@media (max-width: 500px){
+		font-size: 3.8rem;
+	}
+}
+
+.anonymous {
+	font-family: "Montserrat";
+	font-size: 5rem;
+	span {
+		font-family: "Vast Shadow";
+	}
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+	@media (max-width: 600px){
+		font-size: 4.2rem;
+	}
+	@media (max-width: 500px){
+		font-size: 3.8rem;
+	}
+}
+
+.cabin {
+	font-family: "Cabin";
+	font-size: 6rem;
+	span {
+		font-family: "Josefin Slab";
+	}
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+	@media (max-width: 600px){
+		font-size: 4.2rem;
+	}
+	@media (max-width: 500px){
+		font-size: 3.8rem;
+	}
+}
+
+.yanone{
+	font-family: "Josefin Slab";
+	font-size: 6rem;
+	span {
+		font-family: "Montserrat";
+	}
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+	@media (max-width: 600px){
+		font-size: 4.2rem;
+	}
+	@media (max-width: 500px){
+		font-size: 3.8rem;
+	}
+}
+
+.backgroundOne {
+	background: url(../assets/backgroundOne.jpg);
+	background-size: cover;
+}
+
+.backgroundTwo{
+	background-image: url(../assets/backgroundTwo.jpg);
+	background-size: cover;
+}
+
+.backgrountThree{
+	background: url(../assets/backgroundThree.jpg);
+	background-size: cover;
+}
+
+.backgroundFour{
+	background: url(../assets/backgroundFour.jpg);
+	background-size: cover;
+}
+
+.backgroundFive{
+	background: url(../assets/backgroundFive.jpg);
+	background-size: cover;
+}

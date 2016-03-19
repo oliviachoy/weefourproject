@@ -1,0 +1,66 @@
+header, footer {
+	background-color: #F6F6F6;
+	background: url("http://100daysoffonts.com/images/natural-paper.png");
+
+	h1, a {
+		font-family: "Quicksand";
+		color: #16B1A0;
+		text-align: center;
+		font-weight: 400;
+	}	
+
+	h2, p {
+		color: #FFCB00;
+		font-family: "Sacramento";
+		font-size: 2.8rem;
+		padding: 5rem 3rem 5rem;
+		margin: 0 auto;
+	}
+
+	a, p {
+		font-size: 2rem;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	a {
+		padding: 0;
+	}
+}
+
+header {
+	padding: 3.5rem 0;
+
+	h1 {
+		letter-spacing: 0.3rem;
+		font-size: 15rem;
+		padding: 8rem 3rem 0rem;
+		margin: 0 auto;
+	}
+	
+	svg {
+		fill: #16B1A0;
+		padding-top: 2rem;
+		width: 8rem;
+		margin: 0 calc(50% - 4rem);
+	}
+	.bird {
+		margin: 0 auto;
+
+			svg {
+			margin: 0;
+		}
+	}
+}
+header .wrapper h1 {
+			@media (max-width: 700px){
+			font-size: 11rem;
+		}
+		
+		@media (max-width: 400px){
+			font-size: 8rem;
+		}
+}
+
+
+
